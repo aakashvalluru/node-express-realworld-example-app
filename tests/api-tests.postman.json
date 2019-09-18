@@ -14,7 +14,7 @@
           "event": [{
             "listen": "test",
             "script": {
-              "type": "text/javascript",
+              "type": "text/javascript",,,
               "exec": [
                 "if (!(environment.isIntegrationTest)) {",
                 "var responseJSON = JSON.parse(responseBody);",
